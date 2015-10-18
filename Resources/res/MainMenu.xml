@@ -1,0 +1,92 @@
+<prefab name="MainMenu" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(1280.0, 718.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)">
+  <prefab name="Windows" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" mainTexture="mask" imageColor="RGBA(1.000, 1.000, 1.000, 0.000)">
+    <prefab name="ChracterCtr" visible="1" anchorMin="(0.0, 0.5)" anchorMax="(0.0, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(468.0, 468.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-406.0, 0.0, 0.0)" mainTexture="" imageColor="RGBA(1.000, 1.000, 1.000, 0.000)" />
+    <prefab name="TOP" visible="1" anchorMin="(1.0, 1.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.4)" size="(350.0, 116.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(408.0, 434.0, 0.0)">
+      <prefab name="Activity" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(68.0, 95.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(1.0, 16.6, 0.0)" mainTexture="Menu_Btn_Hd" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+        <prefab name="Num" visible="0" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(40.0, 40.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(32.0, 25.0, 0.0)" mainTexture="Menu_Btn_Tip_Pro2" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+          <prefab name="Text" visible="0" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(2.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-1.0, 1.6, 0.0)" text="0&#xA;" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="20" />
+        </prefab>
+      </prefab>
+      <prefab name="MoreGames" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(86.0, 80.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(132.0, 9.1, 0.0)" mainTexture="Icon_more games" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)" />
+    </prefab>
+    <prefab name="MainMission" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(0.0, 0.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(234.0, 239.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-727.0, -478.5, 0.0)" mainTexture="Menu_Btn_Rws" imageColor="RGBA(1.000, 0.995, 0.995, 1.000)">
+      <prefab name="Effects" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.4, 0.9)" localposition="(-24.0, -22.0, -25.0)" />
+    </prefab>
+    <prefab name="GoGam" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(640.0, 204.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(1000.0, 6.0, 0.0)" mainTexture="" imageColor="RGBA(1.000, 1.000, 1.000, 0.004)">
+      <prefab name="CompeteMode" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(126.0, 125.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-184.0, -4.0, 0.0)" mainTexture="Menu_Btn_Js" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+        <prefab name="Effects" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(100.0, 100.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, -1.0, 0.0)">
+          <prefab name="Image" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(100.0, 100.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" />
+        </prefab>
+        <prefab name="Text" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(0.0, -13.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-1.0, 1.0, 0.0)" text="竞赛" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="34" />
+      </prefab>
+      <prefab name="InifiteMode" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(126.0, 125.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(124.0, -5.0, 0.0)" mainTexture="Menu_Btn_Jq" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+        <prefab name="Effects" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(100.0, 100.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)">
+          <prefab name="Image" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(100.0, 100.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" />
+        </prefab>
+        <prefab name="Text" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(0.0, -19.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 1.0, 0.0)" text="经典" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="34" />
+      </prefab>
+      <prefab name="StoryMode" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(148.0, 147.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-31.0, -7.0, 0.0)" mainTexture="Menu_Btn_Wj" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+        <prefab name="Effects" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(100.0, 100.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 2.0, 0.0)">
+          <prefab name="Image" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(100.0, 100.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" />
+        </prefab>
+        <prefab name="Text" visible="1" anchorMin="(0.0, 0.1)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(0.0, 1.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 3.2, 0.0)" text="剧情" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="42" />
+      </prefab>
+      <prefab name="BG" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(486.0, 214.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-32.0, 5.0, 0.0)" mainTexture="MainMenuButton_BG" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+        <prefab name="Effects" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.0, 0.6)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-224.7, 14.3, 0.0)">
+          <prefab name="Effects" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.1)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(205.4, -100.3, 0.0)" />
+          <prefab name="Effects" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.3, 0.7)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(138.8, 34.7, 0.0)" />
+          <prefab name="Effects" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.7, 0.7)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(316.5, 36.4, 0.0)" />
+          <prefab name="Effects" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(1.0, 0.6)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(452.2, 2.0, 0.0)" />
+          <prefab name="Effects" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.2, 0.2)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(54.8, -85.5, 0.0)" />
+        </prefab>
+      </prefab>
+    </prefab>
+    <prefab name="Bottom" visible="1" anchorMin="(0.5, 0.0)" anchorMax="(0.5, 0.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(1280.0, 164.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, -444.0, 0.0)">
+      <prefab name="Rmenu" visible="1" anchorMin="(1.0, 0.5)" anchorMax="(1.0, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(33.0, 103.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(623.0, 7.0, 0.0)" mainTexture="Menu_Btn_S" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+        <prefab name="Rmenu_Jt_L" visible="1" anchorMin="(1.0, 0.5)" anchorMax="(1.0, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(18.0, 22.0)" rotation="(0.0, 1.0, 0.0, 0.0)" localposition="(4.5, 0.0, 0.0)" mainTexture="Menu_Btn_S_J" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)" />
+        <prefab name="right" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(500.0, 106.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-240.0, 0.0, 0.0)">
+          <prefab name="Friend" visible="0" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(66.0, 88.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-156.0, 2.0, 0.0)" mainTexture="Menu_Btn_Sj" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+            <prefab name="Num" visible="0" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(40.0, 40.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(27.0, 32.0, 0.0)" mainTexture="Menu_Btn_Tip_Pro2" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+              <prefab name="Text" visible="0" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(2.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-1.0, 1.6, 0.0)" text="0&#xA;" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="20" />
+            </prefab>
+          </prefab>
+          <prefab name="Email" visible="0" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(66.0, 80.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-15.0, -2.0, 0.0)" mainTexture="Menu_Btn_Yj" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+            <prefab name="Num" visible="0" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(40.0, 40.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(27.0, 32.0, 0.0)" mainTexture="Menu_Btn_Tip_Pro2" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+              <prefab name="Text" visible="0" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(2.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-1.0, 1.6, 0.0)" text="0&#xA;" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="20" />
+            </prefab>
+          </prefab>
+          <prefab name="Set" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(66.0, 84.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(119.0, -2.0, 0.0)" mainTexture="Menu_Btn_Sz" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)" />
+          <prefab name="Leaderboards" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(72.0, 81.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-30.0, -2.0, 0.0)" mainTexture="Menu_phb" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)" />
+          <prefab name="DailyTaskReward" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(66.0, 95.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-177.0, 3.4, 0.0)" mainTexture="Menu_Btn_Rw" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+            <prefab name="Num" visible="0" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(40.0, 40.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(29.0, 32.0, 0.0)" mainTexture="Menu_Btn_Tip_Pro2" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+              <prefab name="Text" visible="0" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(2.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-1.0, 1.6, 0.0)" text="0&#xA;" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="20" />
+            </prefab>
+          </prefab>
+        </prefab>
+      </prefab>
+      <prefab name="Button_Bg" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(396.0, 72.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-212.9, 0.0, 0.0)">
+        <prefab name="ToPlayers" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(0.0, 0.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(133.0, 74.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-131.5, 1.0, 0.0)" mainTexture="But_L" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+          <prefab name="Text" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" text="  角  色" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="28" />
+          <prefab name="SweepLight" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(137.0, 72.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" mainTexture="But_L" imageColor="RGBA(1.000, 1.000, 1.000, 0.020)">
+            <prefab name="Light" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(200.0, 70.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(152.0, 0.0, 0.0)" mainTexture="swipelight" imageColor="RGBA(1.000, 1.000, 1.000, 0.635)" />
+          </prefab>
+        </prefab>
+        <prefab name="ToPet" visible="1" anchorMin="(1.0, 0.0)" anchorMax="(1.0, 0.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(133.0, 70.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(131.5, 0.1, 0.0)" mainTexture="But_R" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+          <prefab name="SweepLight" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(132.0, 72.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" mainTexture="But_R" imageColor="RGBA(1.000, 1.000, 1.000, 0.020)">
+            <prefab name="Light" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(200.0, 70.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(152.0, 0.0, 0.0)" mainTexture="swipelight" imageColor="RGBA(1.000, 1.000, 1.000, 0.635)" />
+          </prefab>
+          <prefab name="Text" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(-10.1, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-5.0, 0.0, 0.0)" text="闺  蜜" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="28" />
+          <prefab name="Num" visible="0" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(40.0, 40.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(54.0, 19.0, 0.0)" mainTexture="Menu_Btn_Tip_Pro2" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+            <prefab name="Text" visible="0" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(2.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(-1.0, 1.6, 0.0)" text="5" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="20" />
+          </prefab>
+        </prefab>
+        <prefab name="ToStore" visible="1" anchorMin="(0.5, 0.0)" anchorMax="(0.5, 0.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(130.0, 70.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 1.0, 0.0)" mainTexture="But_M" imageColor="RGBA(1.000, 1.000, 1.000, 1.000)">
+          <prefab name="SweepLight" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(122.0, 72.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" mainTexture="But_M" imageColor="RGBA(1.000, 1.000, 1.000, 0.020)">
+            <prefab name="Light" visible="1" anchorMin="(0.5, 0.5)" anchorMax="(0.5, 0.5)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(200.0, 70.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(152.0, 0.0, 0.0)" mainTexture="swipelight" imageColor="RGBA(1.000, 1.000, 1.000, 0.635)" />
+          </prefab>
+          <prefab name="Text" visible="1" anchorMin="(0.0, 0.0)" anchorMax="(1.0, 1.0)" localScale="(1.0, 1.0, 1.0)" pivot="(0.5, 0.5)" size="(0.0, 0.0)" rotation="(0.0, 0.0, 0.0, 1.0)" localposition="(0.0, 0.0, 0.0)" text="换衣间" textColor="RGBA(1.000, 1.000, 1.000, 1.000)" textSize="28" />
+        </prefab>
+      </prefab>
+    </prefab>
+  </prefab>
+</prefab>
